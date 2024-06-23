@@ -66,9 +66,9 @@ function Chat() {
             }
           }}
         />
-        <a onClick={sendMessage}>
+        <button onClick={sendMessage} aria-label="Send message">
           <img src="/send.png" alt="send" className="w-10" />
-        </a>
+        </button>
       </div>
     </div>
   );
