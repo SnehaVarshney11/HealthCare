@@ -39,7 +39,7 @@ function Chat() {
   };
 
   return (
-    <div className="border mx-72 my-10 p-10 rounded-md bg-blue-300">
+    <div className="border mx-10 md:mx-44 lg:mx-72 my-10 p-10 rounded-md bg-blue-300">
       <div className="space-y-2">
         {msg.map((message, index) => (
           <div
@@ -67,7 +67,7 @@ function Chat() {
           }}
         />
         <a onClick={sendMessage}>
-          <img src="/send.png" className="w-10" />
+          <img src="/send.png" alt="send" className="w-10" />
         </a>
       </div>
     </div>
